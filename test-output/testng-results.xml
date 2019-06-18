@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="21065" started-at="2019-06-18T20:58:10Z" finished-at="2019-06-18T20:58:31Z">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginPageTest.doLogin()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="doLogin" class="com.syntax.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginFailedEmptyCredentials()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="loginFailedEmptyCredentials" class="com.syntax.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginToOrangeHRM()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="loginToOrangeHRM" class="com.syntax.testcases.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Smoke Test" duration-ms="21065" started-at="2019-06-18T20:58:10Z" finished-at="2019-06-18T20:58:31Z">
+      <class name="com.syntax.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="4628" started-at="2019-06-18T20:58:11Z" finished-at="2019-06-18T20:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="doLogin" duration-ms="3351" started-at="2019-06-18T20:58:15Z" finished-at="2019-06-18T20:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="666" started-at="2019-06-18T20:58:19Z" finished-at="2019-06-18T20:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="4004" started-at="2019-06-18T20:58:19Z" finished-at="2019-06-18T20:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginFailedEmptyCredentials()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="loginFailedEmptyCredentials" duration-ms="336" started-at="2019-06-18T20:58:23Z" finished-at="2019-06-18T20:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailedEmptyCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="635" started-at="2019-06-18T20:58:24Z" finished-at="2019-06-18T20:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="3901" started-at="2019-06-18T20:58:24Z" finished-at="2019-06-18T20:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToOrangeHRM()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="loginToOrangeHRM" duration-ms="2358" started-at="2019-06-18T20:58:28Z" finished-at="2019-06-18T20:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOrangeHRM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="652" started-at="2019-06-18T20:58:30Z" finished-at="2019-06-18T20:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.syntax.testcases.LoginPageTest -->
+      <class name="com.syntax.testcases.AddEmployeePageTest">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.syntax.testcases.AddEmployeePageTest@548e7350]" name="generateReport" is-config="true" duration-ms="178" started-at="2019-06-18T20:58:10Z" finished-at="2019-06-18T20:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.syntax.testcases.AddEmployeePageTest@548e7350]" name="flushReport" is-config="true" duration-ms="333" started-at="2019-06-18T20:58:31Z" finished-at="2019-06-18T20:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.syntax.testcases.AddEmployeePageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
